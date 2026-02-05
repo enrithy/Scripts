@@ -4,6 +4,7 @@ local Flags = {}
 local Config, Fetcher = {}, {}
 
 local Fluent = loadstring(game:HttpGet('https://raw.githubusercontent.com/enrithy/Scripts/refs/heads/main/Angelwings/interface/shared/interface.luau'))()
+Fluent:ToggleTransparency(true)
 
 if not isfolder('angelwings') then
     makefolder('angelwings')
